@@ -1,12 +1,21 @@
 <?php
 
-$a = array (3, "jonas"=>20,"petras" => 20, "simas" =>30, "ana" => 40, "gita" =>50);
+$a = array (10,20,30,50,60,70,80);
 
-$new_a = array_shift($a);
+$b = $a;
 
-var_dump($a);
+$b = array_slice($b, 3);
 
-$result = array_slice($a, 0, 3);
-var_dump($result);
+for ($i=0; $i <= count($b);$i++){
+   
+    if (($i % 2) == 0){
+
+        unset ($b[$i]);
+        
+    }
+
+}
+
+var_dump($b);
 
 ?>
