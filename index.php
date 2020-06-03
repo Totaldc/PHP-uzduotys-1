@@ -1,10 +1,10 @@
 <?php
 
-$a = 'tekstas';
-$b = 'sujungtas';
+$a = "10";
+$b = "1";
 
-if($a> $b){
-    print "$a $b";
-}
+$sum = $a + $b;
+
+print $sum . ' ' .  'maisu';
 
 ?>
