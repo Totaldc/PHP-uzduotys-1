@@ -1,12 +1,13 @@
 <?php
 
-$a =10;
-$b =30;
-if ($a < $b){
-echo "skirtumas yra";
-}else{
+$vardas = 'Jonas';
+$pavarde = 'Jonaitis';
+$atlyginimas = 5000;
 
-echo "skirtumo nera";
+if($atlyginimas > 5000){
+    print "$vardas $pavarde $atlyginimas";
+} else{
+    print "duomenys netinkami";
 }
 
 ?>
