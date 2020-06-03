@@ -1,12 +1,12 @@
 <?php
 
-$a = 5;
-$b = $a + 1;
-$c = $a -  1;
-$d = $c -  1;
+$a =10;
+$b =30;
+if ($a < $b){
+echo "skirtumas yra";
+}else{
 
-$e = $d + $a -  $c;
-
-print $e; //6
+echo "skirtumo nera";
+}
 
 ?>
