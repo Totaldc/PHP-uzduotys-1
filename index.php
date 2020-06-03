@@ -1,17 +1,12 @@
 <?php
 
-$a = array (10,20,30, 1, 1 ,50, 0, 0, "jonas", "petras");
+$a = array (3, "jonas"=>20,"petras" => 20, "simas" =>30, "ana" => 40, "gita" =>50);
 
-$b = array_slice($a, 8);
+$new_a = array_shift($a);
 
-var_dump($b);
+var_dump($a);
 
-for ($i=0;$i<8;$i++) {
-   $new[] = $a[$i] * 10;
-  }
-  
-  $result = array_merge($new, $b);
-
-  var_dump($result);
+$result = array_slice($a, 0, 3);
+var_dump($result);
 
 ?>
