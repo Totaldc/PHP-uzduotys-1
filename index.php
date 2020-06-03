@@ -1,10 +1,10 @@
 <?php
 
-$a = 3;
-$b = 2;
+$a = 'tekstas';
+$b = 'sujungtas';
 
 if($a> $b){
-    print "a daugiau uz b";
+    print "$a $b";
 }
 
 ?>
